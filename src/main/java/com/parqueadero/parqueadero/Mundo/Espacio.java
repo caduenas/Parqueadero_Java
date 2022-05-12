@@ -13,8 +13,12 @@ public class Espacio {
     public String getNumero() {
         return numero;
     }
-    public Boolean getEstado() {
-        return estado;
+    public String getEstado() {
+        if (!estado){
+            return "Libre";
+        }else {
+            return "Ocupado";
+        }
     }
     public void setEstado(Boolean estado) {
         this.estado = estado;

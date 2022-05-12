@@ -5,5 +5,7 @@ import com.parqueadero.parqueadero.Mundo.Controlador;
 public class Inicializador {
     public static void main(String[] args) {
         Controlador controlador = new Controlador();
+        controlador.crear();
+        controlador.consultar();
     }
 }
